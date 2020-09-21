@@ -1,2 +1,2 @@
 # CompetitiveProgramming
- This repository contains solutions for competitive programming problems.
+ My solutions for competitive programming problems.
