@@ -71,12 +71,3 @@ public class mowing {
         br.close();
     }
 }
-
-class mow {
-    boolean mowed;
-    int time;
-    
-    public mow(boolean mowed) {
-        this.mowed = mowed;
-    }
-}
