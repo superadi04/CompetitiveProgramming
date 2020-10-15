@@ -7,8 +7,6 @@ public class lineup {
     static boolean[] chosen = new boolean[8];
     static int count = 0;
     static boolean check = false;
-    static PrintWriter out;
-
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("lineup.in"));
