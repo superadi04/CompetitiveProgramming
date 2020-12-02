@@ -54,7 +54,6 @@ public class hshoe {
         floodfill(r-1, c, s, makeCopy(vis));
     }
 
-    // Java is so bad, clone() wasn't working
     static boolean[][] makeCopy(boolean[][] orig) {
         boolean[][] copy = new boolean[n][n];
         for (int i = 0; i < n; i++) {
