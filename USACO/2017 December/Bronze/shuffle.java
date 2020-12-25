@@ -3,7 +3,6 @@ import java.util.*;
 
 public class shuffle {
     public static void main(String[] args) throws IOException {
-        //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br = new BufferedReader(new FileReader("shuffle.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("shuffle.out")));
         StringTokenizer st = new StringTokenizer(br.readLine());
