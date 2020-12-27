@@ -40,7 +40,7 @@ public class reststops {
 
         @Override
         public int compareTo(Stop o) {
-            // Sort by taste, not position. This is a classic greedy problem.
+            // Sort by taste, not position. This is a classic greedy problem
             return Long.compare(o.taste, taste);
         }
     }
