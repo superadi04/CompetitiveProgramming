@@ -56,7 +56,7 @@ public class diamond {
 
         int ans = 0; // Our answer.
 
-        // Find the maximum possible set of 2 dimaonds that ends at index i and starts at index i + 1
+        // Find the maximum possible set of 2 diamonds that ends at index i and starts at index i + 1
         for (int i = 0; i < n - 1; i++) {
             ans = Math.max(ans, end[i] + start[i + 1]);
         }
