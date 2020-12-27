@@ -22,12 +22,12 @@ public class shuffle {
             fin[i] = Integer.parseInt(st.nextToken());
         }
 
-        // Repeat shuffle 3 times
+        // Repeat the given shuffle 3 times
         for (int i = 0; i < 3; i++) {
             // Loop through the shuffle positions and set each cow to its original position
             int[] newShuffle = new int[n];
             for (int j = 0; j < n; j++) {
-                newShuffle[j] = fin[seq[j]];
+                newShuffle[j] = fin[seq[j]]; // Go to the previous position
             }
             fin = newShuffle; // Set the position of the cows as before the shuffle
         }
