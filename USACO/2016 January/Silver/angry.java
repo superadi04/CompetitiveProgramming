@@ -5,7 +5,6 @@ public class angry {
     static int n, k;
     static int[] arr;
     public static void main(String[] args) throws IOException {
-        //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br = new BufferedReader(new FileReader("angry.in"));
         StringTokenizer st = new StringTokenizer(br.readLine());
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("angry.out")));
