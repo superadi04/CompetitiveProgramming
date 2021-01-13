@@ -35,10 +35,8 @@ public class greetings {
         int currB = 0, currE = 0;
         int bc = 1, ec = 1;
         int bessiePos = 0, elsiePos = 0;
-        int time = 0;
         boolean together = true;
         for (int i = 0; i < Math.max(bcount, ecount); i++) {
-            time++;
             if (currB < b && bc > bessie[currB].dist) {
                 currB++;
                 bc = 1;
