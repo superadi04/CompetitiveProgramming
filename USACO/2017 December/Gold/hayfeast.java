@@ -5,7 +5,6 @@ import java.util.TreeMap;
 public class hayfeast {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("hayfeast.in"));
-        //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("hayfeast.out")));
         long n = Long.parseLong(st.nextToken());
