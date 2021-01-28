@@ -4,7 +4,6 @@ import java.util.StringTokenizer;
 
 public class wifi {
     public static void main(String[] args) throws IOException {
-        //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br = new BufferedReader(new FileReader("wifi.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("wifi.out")));
         StringTokenizer st = new StringTokenizer(br.readLine());
