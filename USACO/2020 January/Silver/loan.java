@@ -4,7 +4,6 @@ import java.util.StringTokenizer;
 public class loan {
     static long n, k, m;
     public static void main(String[] args) throws IOException {
-        //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br = new BufferedReader(new FileReader("loan.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("loan.out")));
         StringTokenizer st = new StringTokenizer(br.readLine());
