@@ -18,9 +18,7 @@ public class Solution {
             Arrays.sort(v1);
             Arrays.sort(v2);
             long sum = 0;
-            for (int j = 0; j < n; j++) {
-                sum += (v1[j] * v2[n - j - 1]);
-            }
+            for (int j = 0; j < n; j++) sum += (v1[j] * v2[n - j - 1]);
             System.out.println("Case #" + i + ": " + sum);
         }
     }
