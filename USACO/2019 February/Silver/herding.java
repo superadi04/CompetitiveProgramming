@@ -16,7 +16,7 @@ public class herding {
             while (j < n - 1 && arr[j + 1] - arr[i] < n - j + i) j++;
             min = Math.min(min, n - j + i - 1);
         }
-        out.println(Math.min(min,max)+"\n"+max);
+        out.println(Math.min(min,max) + "\n" + max);
         out.close();
     }
 }
